@@ -2,6 +2,8 @@
 
 ## Unreal PvE Multiplay 3인칭 Shooter Game
 
+12/07 (월) ~ 01/02 (월), 총 27일
+
 ### 기능
 
 #### Character
