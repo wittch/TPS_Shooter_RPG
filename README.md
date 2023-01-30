@@ -49,7 +49,7 @@ Bullet이 발사되는 궤적표시
 
 탄퍼짐 구현
 
-
+연속 발사 시 Aim의 벌어짐 구현
 
 
 #### Enemy
@@ -71,12 +71,28 @@ Host가 방을 생성 후, 다른 클라이언트가 방을 검색하여 참여�
 방에 참가한 참가자들은 Lobby로 이동 후 게임 시작시 Game Play Level로 변화됨
 
 
+#### Replicate 디버깅 내용
+
+Server의 캐릭터와 Client의 캐릭터의 Aim이 겹치는 문제가 발생하여 수정
+
+Crouch를 Unreal에서 제공하는 기능을 사용하지 않고 구현하였더니 Client의 캐릭터가 가라앉는 문제가 발생하여 수정
+
+각종 캐릭터와 Enmey의 위치 및 Animation이 재생되지 않는 문제 수정
+
+Server와 Client의 Explosive Object와 Enmey의 피격 판정 문제 수정
+
+Item 습득 시 사라지지 않고 남아있는 문제 수정
+
+Client와 Server에서 각 캐릭터의 체력이 다른 문제 수정
+
+
 
 #### 기타
 
 폭발물 사격 시 폭발하며, 이펙트 재생
 
 적에겐 200, 캐릭터에겐 20의 피해를 입힘
+
 
 ## 시연영상
 
