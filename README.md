@@ -1,3 +1,5 @@
+###Asset의 용량이 큰 관계로 Source만 따로 추가했습니다.
+
 # TPS_Shooter
 
 ## Unreal PvE Multiplay 3인칭 Shooter Game
